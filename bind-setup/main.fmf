@@ -1,5 +1,5 @@
 summary: setup functions for bind
-description: ''
+description: 'very old library, some of the very old tests need it'
 contact: Petr Sklenar <psklenar@redhat.com>
 component:
   - bind
