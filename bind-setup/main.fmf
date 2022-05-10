@@ -1,0 +1,25 @@
+summary: setup functions for bind
+description: ''
+contact: Radka Skvarilova <rskvaril@redhat.com>
+component:
+  - bind
+test: ./runtest.sh
+framework: beakerlib
+require:
+  - bind-utils
+  - net-tools
+recommend:
+  - bind
+  - bind-utils
+  - net-tools
+duration: 5m
+enabled: true
+tag:
+  - TIP_fedora_pass
+  - TIPpass
+  - Tier1
+  - destructive
+tier: '1'
+extra-nitrate: TC#0433513
+extra-summary: '[bs] Library for bind testing (bind/bind-setup)'
+extra-task: /CoreOS/bind/Library/bind-setup

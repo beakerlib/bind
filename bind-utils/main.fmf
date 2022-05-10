@@ -1,0 +1,11 @@
+summary: Few helpers for working with DNS and DNSSEC in tests.
+contact: Petr Mensik <pemensik@redhat.com>
+component:
+  - bind
+test: ./runtest.sh
+framework: beakerlib
+recommend:
+  - bind
+duration: 5m
+extra-summary: /CoreOS/bind/Library/bind-utils
+extra-task: /CoreOS/bind/Library/bind-utils
