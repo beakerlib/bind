@@ -1,6 +1,6 @@
 summary: setup functions for bind
 description: ''
-contact: Radka Skvarilova <rskvaril@redhat.com>
+contact: Petr Sklenar <psklenar@redhat.com>
 component:
   - bind
 test: ./runtest.sh
